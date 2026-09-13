@@ -82,6 +82,7 @@ Append below as the system evolves. Date, change, why. The more entries, the sma
 - Standardized every active Operator Framework section as divider → heading → one native empty block → one-line explanation → one native empty block → content.
 - Prohibited an empty block between a divider and the following heading.
 - Applied the pattern across the Operator Framework, Strategic Foundation, Operating Model, Signal Intake, X Doctrine, and Writing System.
+- Extended the same rhythm to all 30 active Operator Stack modules and all three brand profiles, using one empty block before each subsequent divider-free heading and one after every heading.
 
 **Why:**
 - Native Notion empty blocks preserve the deliberate spacing shown in the approved SOP reference.

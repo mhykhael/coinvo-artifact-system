@@ -77,6 +77,8 @@ Every top-level SOP section uses this exact native Notion block sequence:
 - Keep the explanation in one Notion text block, even when it wraps visually.
 - Insert exactly one `<empty-block/>` between the explanation and the first tab, callout, table, database, image, video, or other section block.
 - Apply this sequence to every top-level section in every active SOP chapter.
+- On divider-free module and profile pages, place exactly one `<empty-block/>` before every subsequent section heading and exactly one after every heading; the first heading may follow the opening callout directly.
+- When a divider-free section opens with a one-line explanation before a table, tab, callout, or other working block, place exactly one `<empty-block/>` after that explanation.
 
 Inside `[main content]`, the standard atoms:
 

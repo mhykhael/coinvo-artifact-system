@@ -54,7 +54,7 @@ Title, subtitle, divider, design. Nothing under the design. Trailing caveats and
 
 The SOP uses native empty blocks to create a stable reading rhythm between every section heading, its explanation, and the working surface. Ordinary blank Markdown lines are stripped by Notion and cannot preserve this rhythm. The divider belongs to the preceding section boundary, so adding an empty block below it creates double spacing.
 
-**Principle:** Every top-level SOP section follows divider → heading → one empty block → one-line explanation → one empty block → content. No empty block sits between the divider and heading.
+**Principle:** Every top-level SOP section follows divider → heading → one empty block → one-line explanation → one empty block → content. No empty block sits between the divider and heading. Divider-free operational pages use one empty block before each subsequent heading and one after every heading.
 
 ## GitHub-first storage, claude.ai bootstrap-only
 
