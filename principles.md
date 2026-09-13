@@ -50,6 +50,12 @@ Title, subtitle, divider, design. Nothing under the design. Trailing caveats and
 
 **Principle:** The artifact ends at the design. Anything you would have put in a footer either belongs in the subtitle or does not belong in the artifact.
 
+## Notion spacing is structural
+
+The SOP uses native empty blocks to create a stable reading rhythm between every section heading, its explanation, and the working surface. Ordinary blank Markdown lines are stripped by Notion and cannot preserve this rhythm. The divider belongs to the preceding section boundary, so adding an empty block below it creates double spacing.
+
+**Principle:** Every top-level SOP section follows divider → heading → one empty block → one-line explanation → one empty block → content. No empty block sits between the divider and heading.
+
 ## GitHub-first storage, claude.ai bootstrap-only
 
 The first lock-in attempt embedded the gallery and references inside the claude.ai skill ZIP. That coupled the system to one platform and made updates require a re-zip-and-re-upload cycle. Migrated to a GitHub-first model where the skill is a thin bootstrap that clones the repo on every trigger.

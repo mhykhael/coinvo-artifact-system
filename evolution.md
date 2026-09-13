@@ -73,3 +73,16 @@ Append below as the system evolves. Date, change, why. The more entries, the sma
 **Why:**
 - The playwright render drifted from the chat widget because the sandbox does not know Claude's actual CSS variable values, font stack, or rendering proportions. Result was a worse approximation of an already-perfect render.
 - Native render is binding. Any sandbox-side rasterization is forbidden, see `principles.md`.
+
+---
+
+## v2.1 → v2.2 | September 2026 | Locked Notion SOP spacing
+
+**What changed:**
+- Standardized every active Operator Framework section as divider → heading → one native empty block → one-line explanation → one native empty block → content.
+- Prohibited an empty block between a divider and the following heading.
+- Applied the pattern across the Operator Framework, Strategic Foundation, Operating Model, Signal Intake, X Doctrine, and Writing System.
+
+**Why:**
+- Native Notion empty blocks preserve the deliberate spacing shown in the approved SOP reference.
+- One repeated section rhythm improves scanning and prevents layout drift across future chapters.

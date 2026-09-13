@@ -59,6 +59,25 @@ Every chat-style artifact wraps in this exact frame:
 
 Structure is title, subtitle, divider, design. Nothing trailing. Any caveat or source note that used to live in a footer now goes either inside the subtitle or inside the design itself as an inline annotation.
 
+### Notion SOP spacing standard
+
+Every top-level SOP section uses this exact native Notion block sequence:
+
+```text
+---
+# [emoji] [two-word title]
+<empty-block/>
+[one-line section explanation]
+<empty-block/>
+[section content]
+```
+
+- Keep the divider directly above the heading; never add an empty block below the divider.
+- Insert exactly one `<empty-block/>` between the heading and its explanation.
+- Keep the explanation in one Notion text block, even when it wraps visually.
+- Insert exactly one `<empty-block/>` between the explanation and the first tab, callout, table, database, image, video, or other section block.
+- Apply this sequence to every top-level section in every active SOP chapter.
+
 Inside `[main content]`, the standard atoms:
 
 - **Bordered tinted box**: `background:rgba(R,G,B,0.08);border:1px solid rgba(R,G,B,0.45);border-radius:6px;padding:14px 18px`
