@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The ready cockpit</title>
+  <desc id="desc">Open the right tools before speed matters.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The ready cockpit</text>
+  <text class="sub" x="80" y="122">Open the right tools before speed matters.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <path d="M210 720Q800 210 1390 720" class="soft" stroke="#22D3EE" stroke-width="6"/>
+  <path d="M295 655A88 88 0 0 1 445 655" class="soft" stroke="#A855F7" stroke-width="10"/><line x1="370" y1="655" x2="416" y2="605" stroke="#A855F7" stroke-width="7" stroke-linecap="round"/><circle cx="370" cy="655" r="10" fill="#A855F7"/><text class="tiny" x="370" y="704" text-anchor="middle">PROFILE</text><path d="M515 490A88 88 0 0 1 665 490" class="soft" stroke="#34D399" stroke-width="10"/><line x1="590" y1="490" x2="636" y2="440" stroke="#34D399" stroke-width="7" stroke-linecap="round"/><circle cx="590" cy="490" r="10" fill="#34D399"/><text class="tiny" x="590" y="539" text-anchor="middle">SOURCES</text><path d="M725 430A88 88 0 0 1 875 430" class="soft" stroke="#F5C518" stroke-width="10"/><line x1="800" y1="430" x2="846" y2="380" stroke="#F5C518" stroke-width="7" stroke-linecap="round"/><circle cx="800" cy="430" r="10" fill="#F5C518"/><text class="tiny" x="800" y="479" text-anchor="middle">QUEUE</text><path d="M935 490A88 88 0 0 1 1085 490" class="soft" stroke="#F97316" stroke-width="10"/><line x1="1010" y1="490" x2="1056" y2="440" stroke="#F97316" stroke-width="7" stroke-linecap="round"/><circle cx="1010" cy="490" r="10" fill="#F97316"/><text class="tiny" x="1010" y="539" text-anchor="middle">COMPOSE</text><path d="M1155 655A88 88 0 0 1 1305 655" class="soft" stroke="#F04848" stroke-width="10"/><line x1="1230" y1="655" x2="1276" y2="605" stroke="#F04848" stroke-width="7" stroke-linecap="round"/><circle cx="1230" cy="655" r="10" fill="#F04848"/><text class="tiny" x="1230" y="704" text-anchor="middle">INCIDENT</text>
+  <path d="M260 740h1080" class="guide" stroke-width="3"/>
+  <circle cx="800" cy="740" r="18" fill="#34D399"/><text class="label" x="835" y="750">READY TO SCAN</text>
+
+</svg>

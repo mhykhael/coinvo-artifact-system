@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The four X systems</title>
+  <desc id="desc">Do not treat ranking, safety, rewards, and authenticity as one algorithm.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The four X systems</text>
+  <text class="sub" x="80" y="122">Do not treat ranking, safety, rewards, and authenticity as one algorithm.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <ellipse cx="800" cy="520" rx="610" ry="255" class="guide" stroke-width="3"/>
+  <ellipse cx="800" cy="520" rx="455" ry="190" class="guide" stroke-width="3" transform="rotate(18 800 520)"/>
+  <ellipse cx="800" cy="520" rx="310" ry="130" class="guide" stroke-width="3" transform="rotate(-20 800 520)"/>
+  <circle cx="800" cy="520" r="88" fill="#22D3EE" fill-opacity=".14" stroke="#22D3EE" stroke-width="5"/>
+  <text class="label" x="800" y="512" text-anchor="middle">ONE</text><text class="label" x="800" y="545" text-anchor="middle">POST</text>
+  <circle cx="190" cy="520" r="34" fill="#34D399"/><text class="label" x="110" y="465">RANKING</text>
+  <circle cx="1194" cy="358" r="34" fill="#F04848"/><text class="label" x="1235" y="350">SAFETY</text>
+  <circle cx="1080" cy="660" r="34" fill="#F5C518"/><text class="label" x="1125" y="700">REWARDS</text>
+  <circle cx="516" cy="395" r="34" fill="#A855F7"/><text class="label" x="345" y="370">AUTHENTICITY</text>
+  <text class="small" x="800" y="825" text-anchor="middle">A reach change can come from a different orbit. Diagnose before changing the rule.</text>
+
+</svg>
