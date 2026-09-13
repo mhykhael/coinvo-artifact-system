@@ -87,3 +87,19 @@ Append below as the system evolves. Date, change, why. The more entries, the sma
 **Why:**
 - Native Notion empty blocks preserve the deliberate spacing shown in the approved SOP reference.
 - One repeated section rhythm improves scanning and prevents layout drift across future chapters.
+---
+
+## v2.2 → v2.3 | September 2026 | Locked one-word tab titles
+
+**What changed:**
+- Audited 47 pages across the complete active Operator Framework hierarchy.
+- Renamed 165 multi-word tab titles across seven pages.
+- Confirmed that all 180 native tabs now use exactly one word.
+- Preserved every tab's icon, order, content, and surrounding section structure.
+- Added the one-word rule to the binding specification and principles.
+
+**Why:**
+- Single-word labels reduce navigation width and improve scan speed.
+- Distinct labels preserve clarity while keeping every tab group visually compact.
+- A binding rule prevents title drift as new chapters, modules, and brand profiles are added.
+

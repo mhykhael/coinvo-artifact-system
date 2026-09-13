@@ -80,6 +80,18 @@ Every top-level SOP section uses this exact native Notion block sequence:
 - On divider-free module and profile pages, place exactly one `<empty-block/>` before every subsequent section heading and exactly one after every heading; the first heading may follow the opening callout directly.
 - When a divider-free section opens with a one-line explanation before a table, tab, callout, or other working block, place exactly one `<empty-block/>` after that explanation.
 
+### Notion tab-title standard
+
+Every native Notion tab title uses exactly one visible word.
+
+- Keep the emoji in the tab's `icon` attribute; do not add it to the title text.
+- Choose the shortest precise noun or verb that preserves the tab's function.
+- Keep every label within the same tab group distinct.
+- Audit every `<tab>` title before handoff.
+- Main section headings retain the emoji plus two-word title standard. This rule applies only to native tab titles.
+
+Examples: `Operating Logic` becomes `Logic`, `Decision Order` becomes `Order`, and `Value Routes` becomes `Routes`.
+
 Inside `[main content]`, the standard atoms:
 
 - **Bordered tinted box**: `background:rgba(R,G,B,0.08);border:1px solid rgba(R,G,B,0.45);border-radius:6px;padding:14px 18px`

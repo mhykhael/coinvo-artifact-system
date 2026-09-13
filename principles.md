@@ -56,6 +56,12 @@ The SOP uses native empty blocks to create a stable reading rhythm between every
 
 **Principle:** Every top-level SOP section follows divider → heading → one empty block → one-line explanation → one empty block → content. No empty block sits between the divider and heading. Divider-free operational pages use one empty block before each subsequent heading and one after every heading.
 
+## One-word tabs reduce navigation cost
+
+Tabs are navigation controls, so labels should be recognized before they are interpreted. Multi-word labels add width, visual density, and unnecessary reading time across a large operating system. A single precise word keeps tab rows compact while the icon and tab content carry the deeper meaning. Distinct labels inside each group prevent compression from creating ambiguity.
+
+**Principle:** Every native tab label is one distinct word. Section headings keep the emoji plus two-word standard.
+
 ## GitHub-first storage, claude.ai bootstrap-only
 
 The first lock-in attempt embedded the gallery and references inside the claude.ai skill ZIP. That coupled the system to one platform and made updates require a re-zip-and-re-upload cycle. Migrated to a GitHub-first model where the skill is a thin bootstrap that clones the repo on every trigger.
