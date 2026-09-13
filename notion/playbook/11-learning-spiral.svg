@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The learning spiral</title>
+  <desc id="desc">Evidence becomes a rule only after a clean test survives review.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The learning spiral</text>
+  <text class="sub" x="80" y="122">Evidence becomes a rule only after a clean test survives review.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <path d="M800 510c0-45 55-70 95-45 58 36 44 132-20 174-92 60-224 10-260-102-46-145 66-294 226-318 205-31 385 130 405 342 25 267-189 484-453 483" fill="none" stroke="#A855F7" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="804" cy="510" r="26" fill="#34D399"/><text class="tiny" x="842" y="516">OBSERVE</text><circle cx="938" cy="604" r="26" fill="#22D3EE"/><text class="tiny" x="976" y="610">QUESTION</text><circle cx="682" cy="690" r="26" fill="#F5C518"/><text class="tiny" x="720" y="696">TEST</text><circle cx="544" cy="420" r="26" fill="#F97316"/><text class="tiny" x="582" y="426">COMPARE</text><circle cx="910" cy="235" r="26" fill="#F04848"/><text class="tiny" x="948" y="241">DECIDE</text><circle cx="1230" cy="560" r="26" fill="#A855F7"/><text class="tiny" x="1268" y="566">VERSION</text>
+  <text class="small" x="800" y="822" text-anchor="middle">One post gives a clue. Repeated evidence plus a test may change the system.</text>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The four-part job</title>
+  <desc id="desc">Move fast only when truth, value, and trust move with you.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The four-part job</text>
+  <text class="sub" x="80" y="122">Move fast only when truth, value, and trust move with you.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <circle cx="800" cy="515" r="245" class="soft" stroke="#A855F7" stroke-width="5" stroke-opacity=".55"/>
+  <circle cx="800" cy="515" r="72" fill="#22D3EE" fill-opacity=".18" stroke="#22D3EE" stroke-width="5"/>
+  <path d="M800 236l34 190 190 34-190 34-34 190-34-190-190-34 190-34z" fill="#22D3EE" fill-opacity=".18" stroke="#22D3EE" stroke-width="5"/>
+  <text class="label" x="800" y="506" text-anchor="middle">GOOD</text><text class="label" x="800" y="538" text-anchor="middle">POST</text>
+  <text class="label" x="800" y="220" text-anchor="middle" fill="#34D399">TRUTH</text>
+  <text class="label" x="1100" y="524" fill="#F5C518">VALUE</text>
+  <text class="label" x="800" y="815" text-anchor="middle" fill="#A855F7">TRUST</text>
+  <text class="label" x="350" y="524" fill="#F97316">SPEED</text>
+  <path d="M800 275v100M1028 515h-100M800 655v100M572 515h100" class="soft" stroke="#9C9C98" stroke-width="3"/>
+  <text class="small" x="800" y="740" text-anchor="middle">If one point breaks, the post stops.</text>
+
+</svg>

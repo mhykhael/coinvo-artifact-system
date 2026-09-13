@@ -62,6 +62,18 @@ Tabs are navigation controls, so labels should be recognized before they are int
 
 **Principle:** Every native tab label is one distinct word. Section headings keep the emoji plus two-word standard.
 
+## Workflow order over abstract taxonomy
+
+A new writer needs to know what to do next, not how the system designer grouped ideas. Abstract layers such as foundation, framework, doctrine, and model can all be valid while still creating a poor learning path. The training version therefore follows the writer's actual sequence from setup through review, while the older taxonomy remains available as a source archive.
+
+**Principle:** Teach work in the order it happens. Every chapter should finish one decision and hand a clear output to the next.
+
+## Models over decorated text
+
+A useful teaching visual changes how the reader understands or remembers a relationship. Colored cards that repeat nearby prose add surface area without adding a mental model. A prism can explain brand separation, an airlock can explain publish gates, and a firebreak can explain incident containment because each form carries the logic even before the labels are read.
+
+**Principle:** Use one transparent, unframed conceptual model for one difficult idea. If removing the decoration leaves only a table or list, the visual has not earned its place.
+
 ## GitHub-first storage, claude.ai bootstrap-only
 
 The first lock-in attempt embedded the gallery and references inside the claude.ai skill ZIP. That coupled the system to one platform and made updates require a re-zip-and-re-upload cycle. Migrated to a GitHub-first model where the skill is a thin bootstrap that clones the repo on every trigger.

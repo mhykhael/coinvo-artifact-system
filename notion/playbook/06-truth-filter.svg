@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The truth filter</title>
+  <desc id="desc">A claim gets narrower and stronger as weak evidence falls away.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The truth filter</text>
+  <text class="sub" x="80" y="122">A claim gets narrower and stronger as weak evidence falls away.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <path d="M300 235h1000l-250 245v220L550 790V480z" fill="#22D3EE" fill-opacity=".06" stroke="#22D3EE" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M360 315h880M455 405h690M550 495h500" stroke="#858581" stroke-opacity=".55" stroke-width="4" stroke-dasharray="14 16"/>
+  <circle cx="410" cy="275" r="17" fill="#F04848"/><text class="tiny" x="410" y="245" text-anchor="middle">RUMOR</text><circle cx="650" cy="275" r="17" fill="#F97316"/><text class="tiny" x="650" y="245" text-anchor="middle">SCREENSHOT</text><circle cx="900" cy="275" r="17" fill="#F5C518"/><text class="tiny" x="900" y="245" text-anchor="middle">AGGREGATOR</text><circle cx="1160" cy="275" r="17" fill="#34D399"/><text class="tiny" x="1160" y="245" text-anchor="middle">PRIMARY</text>
+  <path d="M800 710v90" stroke="#34D399" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="800" cy="810" r="34" fill="#34D399"/>
+  <text class="label" x="850" y="819">EXACT CLAIM</text>
+  <text class="small" x="800" y="555" text-anchor="middle">actor · action · number · time · place · certainty</text>
+
+</svg>

@@ -102,4 +102,21 @@ Append below as the system evolves. Date, change, why. The more entries, the sma
 - Single-word labels reduce navigation width and improve scan speed.
 - Distinct labels preserve clarity while keeping every tab group visually compact.
 - A binding rule prevents title drift as new chapters, modules, and brand profiles are added.
+---
+
+## v2.3 → v2.4 | September 2026 | Added the beginner playbook system
+
+**What changed:**
+- Reframed the Operator Framework as a separate X Writer Playbook that follows the real work sequence.
+- Locked a plain language chapter model with one introduction and thirteen numbered chapters.
+- Removed database surfaces from the training path.
+- Reduced the draft table count from 181 source tables to 10 tables.
+- Added fourteen transparent 1600 by 900 SVG teaching visuals and one editable generator.
+- Replaced box based visual summaries with path, compass, prism, orbit, cockpit, radar, filter, tree, airlock, pulse, spiral, firebreak, and exoskeleton models.
+
+**Why:**
+- A new writer should always know where to begin, what to finish, and what comes next.
+- Plain language improves first pass understanding without weakening the control logic.
+- Conceptual visuals make joined ideas easier to remember than repeated prose or decorated tables.
+- A separate build preserves the source archive while allowing the training experience to change from the ground up.
 

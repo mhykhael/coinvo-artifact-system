@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The live signal</title>
+  <desc id="desc">Watch separate health signs. Do not react to one vanity number.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The live signal</text>
+  <text class="sub" x="80" y="122">Watch separate health signs. Do not react to one vanity number.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <path d="M90 525h210l55-2 35-145 65 285 70-230 55 92h125l45-70 50 70h130l35-170 65 330 70-210 55 50h260" fill="none" stroke="#22D3EE" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="320" cy="523" r="16" fill="#34D399"/><text class="tiny" x="320" y="569" text-anchor="middle">REACH</text><circle cx="455" cy="663" r="16" fill="#F04848"/><text class="tiny" x="455" y="709" text-anchor="middle">TRUST</text><circle cx="570" cy="433" r="16" fill="#A855F7"/><text class="tiny" x="570" y="479" text-anchor="middle">REPLIES</text><circle cx="880" cy="455" r="16" fill="#F5C518"/><text class="tiny" x="880" y="501" text-anchor="middle">SHARES</text><circle cx="1120" cy="685" r="16" fill="#F97316"/><text class="tiny" x="1120" y="731" text-anchor="middle">RISK</text><circle cx="1300" cy="525" r="16" fill="#22D3EE"/><text class="tiny" x="1300" y="571" text-anchor="middle">ACTION</text>
+  <text class="label" x="800" y="805" text-anchor="middle">OBSERVE FIRST · ACT FOR READER VALUE OR SAFETY</text>
+
+</svg>

@@ -92,6 +92,33 @@ Every native Notion tab title uses exactly one visible word.
 
 Examples: `Operating Logic` becomes `Logic`, `Decision Order` becomes `Order`, and `Value Routes` becomes `Routes`.
 
+### Beginner SOP architecture standard
+
+Use a guided training path when the reader must learn and perform a job from start to finish.
+
+- Preserve the prior system as a source archive and build the new training path separately.
+- Begin with one introduction page, then use numbered chapters named for the action the writer performs.
+- Order chapters by real work sequence. Every chapter receives a clear input, makes one class of decision, produces a clear output, and points to the next chapter.
+- Write in plain language. Define any technical term the first time it appears.
+- Keep main section headings as emoji plus two words, keep section explanations in one text block, and keep native tab titles to one word.
+- Do not place databases inside the training playbook. Link to live systems of record when the writer needs them.
+- Keep no more than 25 percent of the source system's table count. Use a table only when exact row and column comparison is the clearest form.
+- Use a teaching visual when a long or joined concept is easier to remember as a model.
+
+### Notion SVG teaching standard
+
+Teaching visuals in the Notion SOP use this exact production rule:
+
+- Use SVG with a 1600 by 900 viewBox and a fully transparent root.
+- Do not add a canvas fill, card frame, panel grid, or box in box composition.
+- Keep the title, one line subtitle, divider, and main visual structure used by the Coinvo Artifact System.
+- Use the locked bright palette and theme aware text for dark and light Notion viewing.
+- Express one causal idea through a physical, scientific, natural, or philosophical model.
+- Keep labels short. The chapter text carries the detailed instruction.
+- Do not turn a table into colored rectangles. If the concept is still only text after decoration, redesign it.
+- Add useful alt text that explains what the model teaches.
+- Save the SVG and its editable generator under `notion/playbook/`.
+
 Inside `[main content]`, the standard atoms:
 
 - **Bordered tinted box**: `background:rgba(R,G,B,0.08);border:1px solid rgba(R,G,B,0.45);border-radius:6px;padding:14px 18px`

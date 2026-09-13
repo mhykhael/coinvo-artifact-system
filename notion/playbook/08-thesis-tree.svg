@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The thesis tree</title>
+  <desc id="desc">Strong writing grows from proof. Packaging cannot replace the roots.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The thesis tree</text>
+  <text class="sub" x="80" y="122">Strong writing grows from proof. Packaging cannot replace the roots.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <path d="M790 770C780 640 775 555 800 410M800 520C710 470 640 410 585 320M805 510C900 455 980 390 1040 300M800 430C770 350 760 285 780 220" class="soft" stroke="#F97316" stroke-width="28"/>
+  <path d="M800 740C690 785 575 805 445 800M805 735C930 775 1060 800 1200 790M790 700C650 690 535 650 420 600M812 685C950 665 1080 615 1210 560" class="soft" stroke="#F5C518" stroke-width="10"/>
+  <circle cx="420" cy="600" r="28" fill="#34D399"/><text class="tiny" x="420" y="658" text-anchor="middle">SOURCE</text><circle cx="445" cy="800" r="28" fill="#22D3EE"/><text class="tiny" x="445" y="858" text-anchor="middle">CONTEXT</text><circle cx="1200" cy="790" r="28" fill="#A855F7"/><text class="tiny" x="1200" y="848" text-anchor="middle">RIGHTS</text><circle cx="1210" cy="560" r="28" fill="#F04848"/><text class="tiny" x="1210" y="618" text-anchor="middle">RISK</text>
+  <circle cx="585" cy="320" r="52" fill="#34D399" fill-opacity=".18" stroke="#34D399" stroke-width="5"/><text class="tiny" x="585" y="326" text-anchor="middle">CONSEQUENCE</text><circle cx="780" cy="220" r="52" fill="#22D3EE" fill-opacity=".18" stroke="#22D3EE" stroke-width="5"/><text class="tiny" x="780" y="226" text-anchor="middle">THESIS</text><circle cx="1040" cy="300" r="52" fill="#A855F7" fill-opacity=".18" stroke="#A855F7" stroke-width="5"/><text class="tiny" x="1040" y="306" text-anchor="middle">VOICE</text>
+  <text class="label" x="800" y="845" text-anchor="middle">ROOTS BEFORE HOOKS</text>
+
+</svg>

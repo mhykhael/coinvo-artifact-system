@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The writer journey</title>
+  <desc id="desc">One clear path from a live signal to a better next decision.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The writer journey</text>
+  <text class="sub" x="80" y="122">One clear path from a live signal to a better next decision.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1 1l10 5-10 5z" fill="#22D3EE"/></marker></defs>
+  <path d="M110 700 C260 310 440 720 590 390 S920 245 1080 515 S1320 690 1490 285" class="soft" stroke="#22D3EE" stroke-width="12" marker-end="url(#a)"/>
+  <path d="M110 700 C260 310 440 720 590 390 S920 245 1080 515 S1320 690 1490 285" class="soft" stroke="#A855F7" stroke-opacity=".18" stroke-width="34"/>
+  <circle cx="150" cy="590" r="28" fill="#34D399"/><text class="tiny" x="150" y="652" text-anchor="middle">0. LEARN</text><circle cx="350" cy="485" r="28" fill="#F5C518"/><text class="tiny" x="350" y="547" text-anchor="middle">1. LOAD</text><circle cx="570" cy="430" r="28" fill="#F97316"/><text class="tiny" x="570" y="492" text-anchor="middle">2. FIND</text><circle cx="775" cy="320" r="28" fill="#34D399"/><text class="tiny" x="775" y="382" text-anchor="middle">3. PROVE</text><circle cx="970" cy="405" r="28" fill="#22D3EE"/><text class="tiny" x="970" y="467" text-anchor="middle">4. WRITE</text><circle cx="1165" cy="585" r="28" fill="#A855F7"/><text class="tiny" x="1165" y="647" text-anchor="middle">5. PUBLISH</text><circle cx="1390" cy="390" r="28" fill="#34D399"/><text class="tiny" x="1390" y="452" text-anchor="middle">6. IMPROVE</text>
+  <path d="M116 744c390 55 804 30 1290-8" class="guide" stroke-width="2" stroke-dasharray="8 14"/>
+  <text class="small" x="112" y="794">Read in order. Each chapter hands one finished item to the next.</text>
+
+</svg>

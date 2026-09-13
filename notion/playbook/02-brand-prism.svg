@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The brand prism</title>
+  <desc id="desc">Facts may travel across accounts. Wording, angle, and media must be rebuilt.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The brand prism</text>
+  <text class="sub" x="80" y="122">Facts may travel across accounts. Wording, angle, and media must be rebuilt.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <defs><linearGradient id="beam" x1="0" x2="1"><stop stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+  <path d="M95 480h480" stroke="url(#beam)" stroke-width="28" stroke-linecap="round"/>
+  <text class="label" x="95" y="435">SHARED EVIDENCE</text>
+  <path d="M575 290l260 190-260 190z" fill="#22D3EE" fill-opacity=".08" stroke="#22D3EE" stroke-width="6"/>
+  <text class="label" x="660" y="490" text-anchor="middle">PROFILE</text>
+  <path d="M835 480L1495 285" stroke="#34D399" stroke-width="16" stroke-linecap="round"/>
+  <path d="M835 480L1495 480" stroke="#F5C518" stroke-width="16" stroke-linecap="round"/>
+  <path d="M835 480L1495 675" stroke="#A855F7" stroke-width="16" stroke-linecap="round"/>
+  <text class="label" x="1180" y="270" fill="#34D399">COINVO</text><text class="small" x="1180" y="305">Fast consequence</text>
+  <text class="label" x="1180" y="462" fill="#F5C518">TRADING</text><text class="small" x="1180" y="514">Price and position</text>
+  <text class="label" x="1180" y="660" fill="#A855F7">NEW BRAND</text><text class="small" x="1180" y="700">Its own promise</text>
+  <text class="small" x="565" y="760">Same source. Different audience. Independent thesis. New expression.</text>
+
+</svg>

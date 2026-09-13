@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The value compass</title>
+  <desc id="desc">Choose who supplies the value before choosing the format.</desc>
+  <style>
+    .title{font:700 48px Inter,Arial,sans-serif;letter-spacing:-.7px;fill:#F7F7F5}
+    .sub{font:400 26px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .label{font:600 24px Inter,Arial,sans-serif;fill:#F7F7F5}
+    .small{font:500 19px Inter,Arial,sans-serif;fill:#B8B8B4}
+    .tiny{font:600 16px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#B8B8B4}
+    .guide{stroke:#777772;stroke-opacity:.48;fill:none}
+    .soft{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:light){
+      .title,.label{fill:#191919}.sub,.small,.tiny{fill:#5F5F5B}.guide{stroke:#A7A7A2}
+    }
+  </style>
+  <text class="title" x="80" y="78">The value compass</text>
+  <text class="sub" x="80" y="122">Choose who supplies the value before choosing the format.</text>
+  <line class="guide" x1="80" y1="158" x2="1520" y2="158" stroke-width="2"/>
+  
+  <circle cx="800" cy="520" r="275" fill="none" stroke="#A855F7" stroke-width="5" stroke-opacity=".55"/>
+  <path d="M800 230l72 220 220 70-220 72-72 220-72-220-220-72 220-70z" fill="#A855F7" fill-opacity=".10" stroke="#A855F7" stroke-width="5"/>
+  <circle cx="800" cy="520" r="58" fill="#22D3EE"/><text class="label" x="800" y="529" text-anchor="middle">WHY</text>
+  <text class="label" x="800" y="205" text-anchor="middle" fill="#34D399">CREATE</text>
+  <text class="label" x="1125" y="528" fill="#22D3EE">SYNTHESIZE</text>
+  <text class="label" x="800" y="850" text-anchor="middle" fill="#F5C518">EXTEND</text>
+  <text class="label" x="290" y="528" fill="#F97316">ATTRIBUTE</text>
+  <text class="small" x="800" y="620" text-anchor="middle">If our work is not the main value, keep the source attached.</text>
+
+</svg>
